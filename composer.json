@@ -1,20 +1,21 @@
 {
-	"name": "thinkawitch/php-error-report-tracy",
-	"description": "Save php errors and exceptions to files. One error one file. With help of tracy.",
-	"keywords": ["error report", "tracy"],
-	"authors": [
-		{
-			"name": "Andrew Sinkevitch",
-			"homepage": "http://andrew.sinkevitch.name"
-		}
-	],
-	"require": {
-		"php": ">=5.3.1",
+    "name": "thinkawitch/php-error-report-tracy",
+    "description": "Save php errors and exceptions to files. One error one file. With help of Tracy.",
+    "keywords": ["error report", "tracy"],
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Andrew Sinkevitch",
+            "homepage": "http://andrew.sinkevitch.name"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
         "tracy/tracy": "2.3.6",
         "symfony/filesystem": "2.6.*"
-	},
-	"autoload": {
-		"classmap": ["src"]
-	},
-	"minimum-stability": "dev"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "minimum-stability": "stable"
 }
